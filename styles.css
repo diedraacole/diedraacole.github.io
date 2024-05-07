@@ -1,0 +1,85 @@
+/* DIEDRA COLE'S BIO CSS */
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body, figure {
+  margin: auto;
+  width: 450px;
+}
+
+figcaption {
+  text-align: right;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+
+header, section, footer {
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  font-size: small;
+}
+
+h1 {
+  padding: 10px 10px 0 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+h2, h3 {
+  padding: 10px 10px 0 10px;
+  margin-bottom: 0;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
+p {
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+a {
+  color: teal;
+}
+
+a:hover, a:visited {
+  color: darkslategray;
+}
+
+hr {
+  margin: auto;
+  border: 1px solid black;
+  width: 95%;
+}
+
+iframe {
+  margin: auto;
+  width: 450px;
+  height: 325px;
+  border: none;
+}
+
+/* not sure why--the short hard text-decoration is not working below */
+abbr {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: teal;
+}
+
+.version {
+  /* text-align: center; */
+  text-decoration: underline;
+}
